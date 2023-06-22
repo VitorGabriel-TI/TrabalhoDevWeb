@@ -31,7 +31,7 @@
     justify-content: space-evenly;
     align-items: center;
     font-family: 'Titillium Web', sans-serif;
-    background: #23232e;
+    background: #15151e;
     height: 10vh;
   }
   
@@ -74,7 +74,7 @@
       right: 0;
       width: 50vw;
       height: 92vh;
-      background: #23232e;
+      background: #15151e;
       flex-direction: column;
       align-items: center;
       justify-content: space-around;
@@ -122,14 +122,30 @@
     display: flex;
     justify-content: space-evenly;
     font-family: 'Titillium Web', sans-serif;
-    color: #23232e;
+    color: #15151e;
     padding: 50px;
+    line-height: 40px;
   }
 
   p {
-    display: flex;
+    text-align: center;
     justify-content: space-evenly;
     font-family: 'Titillium Web', sans-serif;
-    color: #23232e;
-    
+    color: #15151e;
+    padding: 20px;
   }
+
+  .noticia{
+    display: grid;
+    justify-content: space-evenly;
+    grid-column-gap: 10px;
+    grid-template-columns: 2fr, 1fr;
+    /*align-items: center;*/
+  }
+
+  .video{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  
