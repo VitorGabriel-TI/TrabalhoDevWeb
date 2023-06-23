@@ -48,3 +48,20 @@ class MobileNavbar {
 btn.addEventListener('change', (e) => {
   document.body.classList.toggle('dark', e.target.checked);
 })
+
+
+document.addEventListener("DOMContentLoaded", function() {
+
+  var footer = document.getElementById("footer");
+
+
+  footer.addEventListener("click", function() {
+
+    activateEasterEgg();
+  });
+});
+
+function activateEasterEgg() {
+  // Adicione aqui o código para o easter egg
+  alert("Não há nada aqui");
+}
